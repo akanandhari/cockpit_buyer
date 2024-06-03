@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {propsType} from '../sidemenuprop';
+import {propsType} from './sidemenuprop';
 import Menu from './menu/menu';
 const SideMenu=(props:propsType)=>
 {

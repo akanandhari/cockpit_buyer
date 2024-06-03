@@ -22,7 +22,7 @@ const sidemenuList:propsType[]=
     {icon:'meter',
     menu:'Suppliers Risk Quotation',
     title:'Suppliers',
-    path:'/supplier'
+    path:'/srq'
     },
     {icon:'checklist',
     menu:'After Sales',
