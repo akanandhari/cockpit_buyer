@@ -1,0 +1,96 @@
+.login-container {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  top: 10%;
+  height: 80%;
+  display: flex;
+  /* border: 1px solid #ccc; */
+}
+.back-transparent
+{
+  background-color: transparent !important;
+}
+.login-item {
+  width: 49%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  background-color: #3e3ed5;
+}
+.login-poster {
+  background-color: #2e2eca;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 1px 12px 12px 1px;
+}
+.fiftyWidth {
+  width: 70% !important;
+}
+.list-item {
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin:5px;
+  text-align: center;
+  background-color: #3e3ed5;
+}
+.logo-font {
+  font-weight: 700;
+  font-size: 32px;
+}
+.each_item
+{
+  width:100%;
+}
+/* media query for Phone */
+@media only screen and (max-width: 600px) {
+  .login-container {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    top: 10%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #ccc;
+  }
+  .login-item {
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .login-poster {
+    font-size: 16px;
+  }
+  .logo-font {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+.fiftyWidth {
+    width: 98% !important;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+ .fiftyWidth {
+    width: 95% !important;
+}
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .container {
+    padding: 30px;
+    font-size: 18px;
+  }
+}

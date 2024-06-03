@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+input:focus
+{
+  border:blue;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+.login-container {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  top: 10%;
+  height: 80%;
+  display: flex;
+  border: 1px solid #ccc;
+}
+.login-item {
+  width: 49%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  background-color: #3e3ed5;
+}
+.login-poster {
+  background-color: #2e2eca;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 1px 12px 12px 1px;
+}
+.logo-font {
+  font-weight: 700;
+  font-size: 32px;
+}
