@@ -21,8 +21,19 @@ let supplierNameList=[
     "Faurecia",
     "Goodyear",
     "Aptiv",
-    "Sumitomo Electric"
+    "Sumitomo Electric","Hitachi", "Clarios", "BHAP", "Yanfeng Automotive Interiors", "Bridgestone",
+    "ZF Friedrichshafen", "Valeo", "Hyundai Mobis", "Lear", "Joyson Electronics",
+    "Cummins", "Sumitomo Electric", "Dana", "Goodyear", "TE Connectivity",
+    "Continental AG", "Autoliv", "Panasonic", "Flex-N-Gate", "Michelin"
   ];
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+supplierNameList=shuffleArray(supplierNameList);
 const generateDummyData = (count:number) => {
     const dummyData = [];
 

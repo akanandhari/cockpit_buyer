@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import supplierList from "../services/data";
 function formatNumber(num) {
@@ -29,7 +30,7 @@ const SupplierGroupList=(props:any)=>
                 </div>
                 <div className=" items-center self-end m-2">
                     <span className="text-green-500 text-md mr-1">▲</span>
-                    <span className="text-green-500">3%</span>
+                    <span className="text-green-500 font-bold text-xl">3%</span>
                     <p className="text-sm text-gray-500 ml-1">VS 2023</p>
                 </div>
            
@@ -40,15 +41,15 @@ const SupplierGroupList=(props:any)=>
                 </div>
                 <div className="flex items-center self-end m-2 flex-col">
                    <p> <span className="text-green-500 text-md mr-1">▲</span>
-                    <span className="text-green-500">3%</span>
+                    <span className="text-green-500 font-bold text-xl">3%</span>
                     </p>
                     <p className="text-sm text-gray-500 ml-1">VS 2023</p>
                 </div>
-                <div className="text-sm   self-end m-2"><p>2,3%</p> 
+                <div className=" self-end m-2 border-r-2 pr-2 border-neutral-300"><p className="font-bold text-xl">2,3%</p> 
                 <p>in height</p></div>
                 <div className="flex items-center self-end m-2 flex-col">
                     <p><span className="text-red-500 text-md mr-1">▼</span>
-                    <span className="text-red-500">3%</span>
+                    <span className="text-red-500 font-bold text-xl">3%</span>
                     </p>
                     <p className="text-sm text-gray-500 ml-1">VS 2023</p>
                 </div>
@@ -59,7 +60,7 @@ const SupplierGroupList=(props:any)=>
                 <div className="p-2 bg-stone-100 rounded-lg shadow">
                     <h2 className="text-md font-md mb-2">SRQ</h2>
                     <div className="flex items-center">
-                        <div className="flex flex-col items-center mr-4">
+                        <div className="flex flex-col items-center mr-8">
                         <span className="text-sm">Q</span>
                             <p className="text-3xl font-bold bg-green-500 p-2 rounded-md">5</p>
                             
@@ -77,7 +78,7 @@ const SupplierGroupList=(props:any)=>
                 <div className="p-2 bg-stone-100 rounded-lg shadow">
                     <h2 className="text-md font-md mb-2">After Sales</h2>
                     <div className="flex items-center">
-                        <div className="flex flex-col items-center mr-4">
+                        <div className="flex flex-col items-center mr-8">
                         <span className="text-sm">VOR</span>
                             <p className="text-3xl font-bold bg-yellow-300 p-2 rounded-md">80</p>                           
                         </div>
