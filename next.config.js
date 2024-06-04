@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { basePath: '/cockpit'};
+const nextConfig = {};
 
 module.exports = nextConfig;

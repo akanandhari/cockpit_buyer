@@ -1,6 +1,13 @@
+'use client';
+import SupplierGroupList from './component/grpSupplierComps/groupBySupplier';
+import Search from "./component/search";
+
 function Dashboard()
 {
-  return (<>i am dashboard for now!!
+  return (<>
+  <Search user={'Anandakrishnan M'}/>
+  
+<SupplierGroupList />
 </>);
 }
 export default Dashboard;
